@@ -1,0 +1,19 @@
+@import "starlog.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in starlog.scss
+
+.starlog {
+  @include addons;
+  @include starlog;
+
+.text-align-right {
+text-align: right;
+}
+.background-dark {
+    background-color: black;
+    color: white;
+}
+
+}
